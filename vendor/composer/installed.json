@@ -1,0 +1,56 @@
+[
+    {
+        "name": "coinremitterphp/coinremitter-php",
+        "version": "0.1.2",
+        "version_normalized": "0.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CoinRemitter/coinremitter-php.git",
+            "reference": "04e9cabd7774ff49de52d7c8bf17cfe7c6e4a30c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/CoinRemitter/coinremitter-php/zipball/04e9cabd7774ff49de52d7c8bf17cfe7c6e4a30c",
+            "reference": "04e9cabd7774ff49de52d7c8bf17cfe7c6e4a30c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "php": ">=5.3.0"
+        },
+        "time": "2019-12-07T11:48:40+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "0.1-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "CoinRemitter": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Coinremitter",
+                "email": "coinremitter@outlook.com"
+            }
+        ],
+        "description": "coin remitter sdk for php",
+        "homepage": "https://coinremitter.com/",
+        "keywords": [
+            "api",
+            "coinremitter",
+            "cryptocurrency",
+            "payment gateway",
+            "php"
+        ]
+    }
+]

@@ -1,0 +1,25 @@
+
+
+{
+	"sEmptyTable":     "این گزارش هیچ نتیجه‌ای در پی نداشت",
+	"sInfo":           "نمایش _START_ تا _END_ از _TOTAL_ رکورد",
+	"sInfoEmpty":      "هیچ رکوردی برای نمایش وجود ندارد",
+	"sInfoFiltered":   "(فیلتر شده از _MAX_ رکورد)",
+	"sInfoPostFix":    "",
+	"sInfoThousands":  ",",
+	"sLengthMenu":     "نمایش &nbsp; _MENU_ &nbsp; سطر در هر برگه",
+	"sLoadingRecords": "دریافت داده‌ها...",
+	"sProcessing":     "پردازش داده‌ها...",
+	"sSearch":         "جست‌وجو:&ensp;",
+	"sZeroRecords":    "این گزارش هیچ نتیجه‌ای در پی نداشت",
+	"oPaginate": {
+		"sFirst":    "نخستین",
+		"sLast":     "واپسین",
+		"sNext":     "پسین",
+		"sPrevious": "پیشین"
+	},
+	"oAria": {
+		"sSortAscending":  "مرتب سازی از کوچک به بزرگ",
+		"sSortDescending": "مرتب سازی از بزرگ به کوچک"
+	}
+}

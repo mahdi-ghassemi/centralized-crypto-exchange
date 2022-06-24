@@ -1,0 +1,2318 @@
+/*html { 
+  background: url(../img/bg.png) repeat center center fixed; 
+  
+}*/
+
+.uk-container {
+    padding-right: 0px;
+    padding-left: 0px;
+    max-width: 100vw;
+}
+
+#content {
+    margin-top: 0px;
+}
+
+#main-content {
+    margin-left: 0;
+}
+
+#content2,
+#content3,
+#content4,
+#content5 {
+    display: none;
+}
+
+#sub_content {
+    justify-content: space-around;
+}
+
+.uk-navbar {
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    height: 65px;
+}
+
+.uk-offcanvas-bar {
+    font-family: 'iransansweb';
+}
+
+.uk-offcanvas-bar ul li a {
+    color: #fff !important;
+    font-size: 20px;
+}
+
+.uk-offcanvas-bar ul li a img {
+    margin-left: 5px;
+}
+
+.uk-offcanvas-bar {
+    background: #202c31 !important;
+}
+
+.card-invoice {
+    width: 80vw;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+    height: fit-content;
+}
+
+.card-invoice-2 {
+    width: 35vw;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+    height: fit-content;
+}
+
+.w80 {
+    width: 80vw;
+}
+
+.fz12 {
+    font-size: 11px !important;
+}
+
+.menu-3line {
+    color: #fff;
+    display: none;
+}
+
+.row-right {
+    display: flex;
+}
+
+.lang-select {
+    border: none;
+    height: 20px !important;
+    margin-top: 0px;
+    color: #6b2929;
+    width: 75px;
+}
+
+.iframe-pay {
+    height: 1000px;
+}
+
+.lang-img {
+    margin-right: 15px;
+    width: 21px;
+    height: 21px;
+    margin-top: 2px;
+}
+
+.lang-img-en {
+    margin-left: 15px;
+    width: 21px;
+    height: 21px;
+    margin-top: 2px;
+}
+
+
+.e-logo {
+    font-family: 'iransansweb';
+    font-size: 47px;
+    font-weight: 600;
+    text-shadow: 2px 2px 2px #052b22;
+    color: yellow;
+}
+
+.logo-left {
+    /*    font-family: 'Bitsumishi';*/
+    font-size: 42px;
+    font-weight: 200;
+    text-shadow: 2px 2px 2px #182118;
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #2d417e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .63);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.calculate-title,
+.price-title {
+    font-family: 'IRANSansWeb';
+    color: #556b39 !important;
+    text-shadow: 1px 1px 0px #eaeaca;
+    font-weight: bold;
+}
+
+.uk-felx-row {
+    justify-content: space-between !important;
+}
+
+
+.card-calc,
+.card-price {
+    width: 47vw;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+    height: 414px;
+}
+
+.card-default {
+    width: 47vw;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+    height: auto;
+}
+
+.card-features {
+    width: 25vw;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+    height: 245px;
+}
+
+.card-toolbar-home {
+    position: fixed;
+    margin-top: 17px;
+    z-index: 1001;
+    width: 47vw;
+    background-color: #2d417e;
+    height: 64px;
+    border-radius: 50px;
+}
+
+.card-toolbar-dashboard {
+    position: fixed;
+    margin-top: 17px;
+    z-index: 1001;
+    width: 65vw;
+    background-color: #2d417e;
+    border: none;
+    height: 64px;
+    border-radius: 50px;
+
+}
+
+.profile-btn {
+    border: none;
+}
+
+.profile-img {
+    width: 64px;
+    height: 64px;
+}
+
+.profile-dropdown {
+    left: 55px !important;
+    top: 54.5px !important;
+    font-family: 'iransansweb';
+    background-color: #2d385a;
+}
+
+.home-content {
+    justify-content: space-around;
+    margin-top: 130px !important;
+}
+
+.dashboard-content {
+    justify-content: space-around;
+    margin-top: 132px !important;
+}
+
+.spinner-onload {
+    opacity: 0;
+}
+
+.alert-danger {
+    display: none;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    background-color: #f2dede;
+    border-color: #ebcccc;
+    color: #a94442;
+    margin-top: 10px;
+}
+
+.alert-info {
+    display: none;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    background-color: #89ef9d;
+    border-color: #92f096;
+    color: #0a3105;
+    margin-top: 10px;
+}
+
+
+.card-toolbar-body {
+    padding-top: 14px;
+}
+
+.uk-icon-navy {
+    color: navy;
+}
+
+.lable-checkbox-2 {
+    cursor: pointer;
+    font-family: 'iransansweb';
+    font-size: 16px;
+    color: #5a0b0b;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+.firebrick,
+.firebrick:hover {
+    color: #fbfbfb;
+    background-color: #1e87f0;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.center {
+    text-align: center;
+    display: inline-block;
+}
+
+.width-1 {
+    width: 5vw;
+}
+
+.width-2 {
+    width: 9vw;
+}
+
+.t1 {
+    margin-top: -50px;
+}
+
+.h1 {
+    height: auto;
+}
+
+.a1 {
+    color: #791010;
+    text-decoration: none !important;
+    font-style: italic;
+}
+
+.green {
+    color: #358c35;
+}
+
+.red {
+    color: #de2a22;
+}
+
+.card-toolbar-body a {
+    text-decoration: none;
+}
+
+.identity-menu {
+    margin-top: 122px;
+    width: 100vw;
+}
+
+.card-toolbar-body p {
+    margin-top: 0;
+    font-family: iransansweb;
+    font-size: 17px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.card-id {
+    width: 45vw;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+    height: fit-content;
+}
+
+.div-upload-btn {
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu-item {
+    color: #fff !important;
+    font-size: 18px;
+}
+
+.div-upload-btn a {
+    width: 10vw;
+}
+
+.div-upload-file-list {
+    width: 78vw;
+
+}
+
+.tm-date-jalali,
+.tm-date-gregorian {
+    display: block;
+    color: #868818;
+    text-shadow: 1px 1px 0px #eaeaca;
+    font-weight: bold;
+    font-family: 'shabnam';
+}
+
+.tm-date-jalali {
+    margin-bottom: 8px;
+    direction: rtl;
+}
+
+.tm-date-gregorian {
+    direction: rtl;
+}
+
+.coin-select-div,
+.amount-div {
+    width: 19vw;
+    border: 1px solid;
+    border-color: yellowgreen;
+    border-radius: 3px;
+}
+
+.order-select-input {
+    border: 1px solid;
+    border-color: yellowgreen;
+    border-radius: 3px;
+}
+
+.buy-btn,
+.sell-btn {
+    width: 19vw;
+    border-radius: 5px;
+    margin-left: 11px;
+}
+
+.menu-item-div {
+    height: 30px;
+}
+
+.menu-item-div:hover {
+    border-bottom: 1px solid #ffffff;
+    transition: border-width 1s ease-in-out;
+}
+
+.login-btn,
+.login-btn:hover {
+    border-radius: 17px;
+    background-color: #158253;
+    border: none;
+    color: #ffffff;
+}
+
+.uk-table td {
+    text-align: center;
+    font-family: 'iransansweb';
+    font-weight: 600;
+}
+
+.uk-table th {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #6b2929;
+    font-family: 'iransansweb';
+}
+
+.shabnam {
+    font-family: 'iransansweb';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.shabnam-light {
+    font-family: 'iransansweb';
+    font-size: 18px;
+}
+
+.card-new-ticket {
+    width: 85vw;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+    height: auto;
+}
+
+.dep {
+    font-family: 'iransansweb';
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.uk-input[placeholder],
+.uk-select {
+    font-family: 'iransansweb';
+    font-weight: 600;
+}
+
+.uk-button {
+    font-family: 'shabnam';
+    font-weight: 600;
+}
+
+input[type=checkbox] {
+    vertical-align: sub;
+    margin-left: 5px;
+}
+
+input[type=radio] {
+    vertical-align: sub;
+    margin-left: 5px;
+}
+
+.order-btn {
+    background: #1f791f;
+    color: #eaea0c;
+    font-weight: 100 !important;
+    border-radius: 5px;
+}
+
+.orange-btn,
+.orange-btn:hover,
+.orange-btn:focus {
+    background: #ffae00;
+    color: #424233;
+    font-weight: 600 !important;
+    border-radius: 5px;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+}
+
+.fosfor-btn {
+    background: #ff7641;
+    color: #424233;
+    font-weight: 600 !important;
+    border-radius: 5px;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+}
+
+.input-font {
+    font-family: 'iransansweb';
+    font-weight: 600;
+}
+
+.uk-form-label {
+    font-family: 'shabnam' !important;
+    font-size: 15px !important;
+}
+
+.direction-ltr {
+    direction: ltr;
+}
+
+.deposit-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.deposit-body-div1 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d4cbcb;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 50px 10px;
+    width: 27vw;
+}
+
+.deposit-body-div3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.deposit-body-div2 {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #d4cbcb;
+    border-radius: 5px;
+    margin-left: 10px;
+    padding: 50px;
+}
+
+.top-menu-dashboard {
+    width: 56vw;
+}
+
+.top-menu a,
+.top-menu-dashboard a {
+    color: #fff !important;
+    font-family: 'iransansweb';
+    margin-left: 31px;
+    font-size: 21px;
+    text-shadow: 0px 2px 0px #013a2b;
+    text-decoration: none;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'yekan';
+    font-size: 27px;
+    color: #038262;
+    text-shadow: 0px 1px 0px #c3e0d9;
+}
+
+.counter-en {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 27px;
+    color: #038262;
+    text-shadow: 0px 1px 0px #c3e0d9;
+}
+
+.counter h2 {
+    font-family: 'iransansweb';
+    font-size: 37px;
+    font-weight: 600;
+    color: #003629;
+    text-shadow: 0px 1px 0px #c3e0d9;
+}
+
+.counter img {
+    margin-right: 10px;
+}
+
+.icon-safebox,
+.icon-bitcoin,
+.icon-exchange,
+.icon-wallet {
+    font-size: 34px;
+}
+
+.span-icon {
+    font-family: iransansweb;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: -10px;
+    right: 10px;
+}
+
+.elzami {
+    color: #8d0d0d;
+}
+
+.yekan {
+    font-family: 'yekan';
+}
+
+.san-serif {
+    font-family: sans-serif;
+}
+
+.card-setting {
+    width: 97vw;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+    margin-right: 17px;
+}
+
+.p6 {
+    padding: 6px;
+}
+
+.w10 {
+    width: 10vw;
+}
+
+.w19 {
+    width: 19vw;
+}
+
+.w7 {
+    width: 7vw;
+}
+
+.w38 {
+    width: 38vw;
+}
+
+.w28 {
+    width: 28vw;
+}
+
+.marron {
+    color: maroon;
+}
+
+
+.alert {
+    width: 96vw;
+    font-family: 'iransansweb';
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.alert-warrning {
+    width: 96vw;
+    font-family: 'iransansweb';
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #fc4a1a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fc4a1a, #f7b733);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fc4a1a, #f7b733);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.alert-deposit {
+    font-family: 'iransansweb';
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    background: #fc4a1a;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.rules {
+    position: relative;
+    top: 31px;
+    right: -21px;
+}
+
+.rules input {
+    margin-left: 6px;
+    border: 1px solid yellowgreen;
+    border-radius: 3px;
+
+}
+
+.captcha-div {
+    position: relative;
+    left: -26px;
+}
+
+.captch-input-div {
+    width: 19vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.cap {
+    width: 13vw;
+    margin-left: 10px;
+}
+
+.imgcaptcha {
+    margin-left: 10px;
+    border: 1px solid yellowgreen;
+    border-radius: 3px;
+}
+
+.refresh {
+    width: 17px;
+    height: 27px;
+    cursor: pointer;
+    top: 9px;
+    position: relative;
+}
+
+.sell_link,
+.sell_link:hover {
+    color: yellow;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.uk-card-footer a {
+    font-family: 'iransansweb';
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333333;
+}
+
+.uk-pagination {
+    font-weight: 600 !important;
+    font-family: 'iransansweb';
+    color: maroon !important;
+}
+
+.order-list {
+    width: 97vw;
+    border-radius: 5px;
+    right: 13px;
+    font-family: 'iransansweb';
+    border: 1px solid #254450;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+}
+
+.font-yekan span {
+    font-family: 'yekan' !important;
+}
+
+.new_order_btn,
+.new_order_btn:hover,
+.new_order_btn:focus .new_order_btn:disabled {
+    background-color: #2d9a30 !important;
+    border: 0;
+    border-radius: 5px;
+    color: #fff !important;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+}
+
+.cancel_btn,
+.cancel_btn:hover,
+.cancel_btn:focus .cancel_btn:disabled {
+    background-color: #bf0e0e !important;
+    border: 0;
+    border-radius: 5px;
+    color: #fff !important;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+}
+
+.pay_btn,
+.pay_btn:hover,
+.pay_btn:focus,
+.pay_btn:disabled {
+    background-color: #0f0f86 !important;
+    border: 0;
+    border-radius: 5px;
+    color: #fff !important;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+}
+
+.uk-modal-title {
+    font-size: 1.5rem;
+}
+
+.order-body-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.order-lable {
+    font-family: 'iransansweb';
+    font-size: 18px;
+    font-weight: 600;
+    color: #556b39;
+    text-shadow: 0px 1px 0px #c3e0d9;
+}
+
+.new-order-modal {
+    border-radius: 5px;
+    font-family: 'iransansweb';
+    border: 1px solid #254450;
+    box-shadow: 0 5px 12px rgb(27, 82, 68);
+}
+
+.uk-tab > .uk-disabled > a {
+    color: #810c0c;
+}
+
+.uk-tab > * > a {
+    color: #0b0b5f;
+}
+
+.uk-tab > * > a:focus,
+.uk-tab > * > a:hover {
+    color: #0b0b5f;
+}
+
+.uk-tab > .uk-active > a {
+    color: #2f6214 !important;
+    border-color: #2f6214 !important;
+}
+
+.tab-title {
+    font-family: 'iransansweb';
+    font-size: 18px !important;
+    font-weight: 600;
+}
+
+p.button-height,
+ul.button-height,
+ol.button-height {
+    margin-bottom: 14px;
+}
+
+.button-height {
+    line-height: 34px;
+    margin-top: -2px;
+    margin-bottom: -2px;
+}
+
+.mid-margin-left {
+    margin-left: 8px !important;
+}
+
+.checked > .switch-on > span {
+    font-family: iransansweb;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.switch-off > span {
+    font-family: iransansweb;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.width-3 {
+    width: 3vw;
+}
+
+.input,
+.inputs {
+    display: inline-block;
+    text-align: right;
+    padding: 0 9px;
+    line-height: 30px;
+    border: 0;
+    vertical-align: baseline;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: -webkit-box-shadow 400ms;
+    -moz-transition: -moz-box-shadow 400ms;
+    -ms-transition: box-shadow 400ms;
+    -o-transition: box-shadow 400ms;
+    transition: box-shadow 400ms;
+    -webkit-box-shadow: inset 0 0 0 1px rgba(51, 153, 255, 0), inset 0 2px 5px rgba(0, 0, 0, 0.35), 0 1px 1px rgba(255, 255, 255, 0.5), 0 0 0 rgba(51, 153, 255, 0);
+    -moz-box-shadow: inset 0 -0 0 1px rgba(51, 153, 255, 0), inset -0 2px 5px rgba(0, 0, 0, 0.35), -0 1px 1px rgba(255, 255, 255, 0.5), -0 0 0 rgba(51, 153, 255, 0);
+    box-shadow: inset 0 0 0 1px rgba(51, 153, 255, 0), inset 0 2px 5px rgba(0, 0, 0, 0.35), 0 1px 1px rgba(255, 255, 255, 0.5), 0 0 0 rgba(51, 153, 255, 0);
+}
+
+.fieldset {
+    padding: 20px;
+    margin-left: 18px;
+    width: 48%;
+    border: 1px solid #cccccc;
+    margin-bottom: 16px;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 0 rgba(255, 255, 255, 0.15);
+    -moz-box-shadow: inset -0 1px 0 rgba(255, 255, 255, 0.15), -0 1px 0 rgba(255, 255, 255, 0.15);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.legend {
+    line-height: 22px;
+    border-width: 1px;
+    border-style: solid;
+    padding: 0 9px;
+    -webkit-background-clip: padding-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    z-index: 88;
+    margin-bottom: 10px;
+    font-family: 'iransansweb';
+}
+
+.disabled_div {
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.enabled_div {
+    pointer-events: inherit;
+    opacity: 1;
+}
+
+
+
+/* Datatable */
+
+div.dataTables_wrapper div.dataTables_filter label {
+    font-size: 18px;
+    font-family: 'iransansweb';
+    color: #6a6b39;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    border: 1px solid yellowgreen;
+    border-radius: 3px;
+    height: 30px;
+    font-family: 'iransansweb';
+}
+
+div.dataTables_wrapper div.dataTables_length label {
+    font-size: 18px;
+    font-family: 'iransansweb';
+    color: #6a6b39;
+    height: 30px
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    border: 1px solid yellowgreen;
+    border-radius: 3px;
+}
+
+div.dataTables_wrapper div.dataTables_info {
+    font-size: 18px;
+    font-family: 'iransansweb';
+    color: #6a6b39;
+}
+
+.lable-checkbox {
+    cursor: pointer;
+    font-family: 'shabnam';
+    font-size: 15px;
+    color: #333;
+    margin-left: 5px;
+
+}
+
+.terms {
+    font-family: 'iransansweb';
+}
+
+.terms-main-title {
+    font-weight: 600;
+    font-size: 25px;
+    border-bottom: 1px solid navy;
+    color: maroon;
+}
+
+.terms-text {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.terms-title {
+    font-family: mitra;
+    font-weight: 600;
+    font-size: 22px;
+    color: maroon;
+}
+
+ul.list {
+    overflow: visible;
+}
+
+ul.list li {
+    padding: 5px 5px;
+    border: 1px solid #cdc5bb;
+    box-shadow: 2px 2px 4px 0px #eaeaea;
+    background: #ece7e1;
+    margin: 0 0 15px 0;
+    border-radius: 7px;
+}
+
+.header {
+    font-weight: bold;
+    text-align: right;
+    font-family: 'iransansweb';
+    color: maroon;
+    cursor: pointer;
+    display: flex;
+    font-size: 20px;
+}
+
+.header span {
+    margin-left: 10px;
+    vertical-align: middle;
+    margin-top: 2px;
+}
+
+.body {
+    display: none;
+    text-align: justify;
+    font-family: iransansweb;
+    color: #37394e;
+    font-size: 18px;
+    border-top: 1px solid #cdc5bb;
+    padding: 0px 36px;
+    margin: 7px 0 0 0;
+    font-weight: 600;
+}
+
+/* end data table */
+
+cite {
+    font-family: 'iransansweb';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer {
+    height: 316px;
+    background-color: #2d417e;
+}
+
+.footer-section {
+    margin-top: 5px;
+}
+
+.footer ul {
+    line-height: 23px;
+}
+
+.footer ul li a {
+    font-family: 'iransansweb';
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+}
+
+.about_div {
+    width: 30vw;
+    text-align: justify;
+    font-family: 'iransansweb';
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer_img {
+    width: 150px;
+    height: 284px;
+}
+
+.footer_fallow-us {
+    font-family: 'iransansweb';
+    font-size: 17px;
+    color: #fff;
+}
+
+.card-wallet {
+    width: 95vw;
+}
+
+.w30 {
+    width: 30vw;
+}
+
+.w15 {
+    width: 15vw;
+}
+
+.w100 {
+    width: 100vw;
+}
+
+.success {
+    color: green;
+}
+
+.card-coin {
+    width: 28vw;
+}
+
+.card-coin-body-div1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-bot-dialog {
+    width: 60vw;
+}
+
+.unread-ticket {
+    font-weight: 600;
+    color: #1d1c1c;
+}
+
+.new-ticket-span {
+    border-radius: 30%;
+    background-color: #de0f0f;
+    color: white;
+    font-size: smaller;
+    position: relative;
+    top: 8px;
+    left: 2px;
+}
+
+
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .uk-container {
+        overflow-x: auto;
+    }
+
+    .login-btn-div {
+        display: none;
+    }
+
+    .profile-btn {
+        display: none;
+    }
+
+    .uk-navbar {
+        height: 45px;
+    }
+
+    .uk-navbar-item,
+    .uk-navbar-nav > li > a,
+    .uk-navbar-toggle {
+        min-height: 42px;
+    }
+
+    .logo-img {
+        display: none;
+    }
+
+    .e-logo {
+        font-size: 17px;
+        margin-top: -18px;
+    }
+
+    .card-toolbar-home {
+        display: none;
+    }
+
+    .menu-3line {
+        display: block;
+        margin-top: -35px;
+
+    }
+
+    .home-content {
+        justify-content: space-around;
+        margin-top: 53px !important;
+        width: 100vw;
+        padding: 0px !important;
+    }
+
+    .uk-grid-small {
+        margin-right: 0px !important;
+    }
+
+    .card-calc,
+    .card-price {
+        width: 99vw;
+        padding-right: 0px;
+        overflow-x: scroll;
+    }
+
+    .t1 {
+        font-size: 12px;
+    }
+
+    .uk-table th {
+        font-size: 12px;
+    }
+
+    .uk-table td {
+        padding: 4px 7px;
+        vertical-align: middle;
+    }
+
+    .quick-new-order-btn {
+        visibility: hidden;
+    }
+
+    .card-features {
+        width: 100vw;
+    }
+
+    .tm-date-jalali,
+    .tm-date-gregorian {
+        font-size: 10px;
+    }
+
+    .calculate-title,
+    .price-title {
+        font-size: 14px;
+    }
+
+    .shabnam {
+        font-size: 13px;
+    }
+
+    .row {
+        width: 85vw;
+        flex-direction: column;
+    }
+
+    .amount-div {
+        width: 85vw;
+        margin-bottom: 9px;
+    }
+
+    .coin-select-div {
+        width: 85vw;
+    }
+
+    .buy-btn,
+    .sell-btn {
+        width: 85vw;
+        margin-bottom: 10px;
+    }
+
+    .about_div {
+        display: none;
+    }
+
+    .footer_img {
+        display: none;
+    }
+
+    .footer ul {
+        line-height: 17px;
+    }
+
+    .footer_fallow-us {
+        font-size: 12px;
+    }
+
+    .order-body-div {
+        flex-direction: column;
+    }
+
+    .w10 {
+        width: 75vw;
+    }
+
+    .order-select-input {
+        width: 75vw;
+    }
+
+    .w38 {
+        width: 75vw;
+    }
+
+
+
+    .rules {
+        top: 0px;
+        right: 0px;
+        margin-bottom: 37px;
+    }
+
+    .rules label {
+        font-size: 19px;
+    }
+
+    .card-toolbar-dashboard {
+        display: none;
+    }
+
+    .order-list {
+        right: 0px;
+    }
+
+    .uk-width-expand {
+        min-width: fit-content;
+    }
+
+    .order-list .uk-card-header {
+        padding: 15px 0px;
+    }
+
+    #orders_wrapper {
+        overflow-x: scroll;
+    }
+
+    tr td span {
+        font-size: 12px;
+    }
+
+    .expand {
+        min-width: 150px;
+    }
+
+    .btn-identity-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-identity-div button {
+        margin-bottom: 3px;
+        margin-left: 0px !important;
+    }
+
+    .identity-menu {
+        z-index: 0;
+        position: relative;
+    }
+
+    #content,
+    #content2,
+    #content3,
+    #content4,
+    #content5 {
+        margin-top: 0px;
+    }
+
+    .card-setting {
+        margin-right: 0px;
+    }
+
+    .invoice-h1 {
+        flex-direction: column;
+    }
+
+    .card-invoice-2 {
+        width: 65vw;
+    }
+
+    #inv_wallet_addr {
+        font-size: 11px;
+    }
+
+    .fz12 {
+        font-size: 6px !important;
+    }
+
+    .card-id {
+        width: 82vw;
+    }
+
+    .flex-col {
+        flex-direction: column;
+    }
+
+    .ts-drag-title {
+        font-size: 12px;
+    }
+
+    .div-upload-btn a {
+        width: 70vw;
+        margin-bottom: 16px;
+    }
+
+    .div-upload-btn {
+        width: 84vw;
+        margin-bottom: 5px;
+    }
+
+    .card-new-ticket {
+        width: 94vw;
+    }
+
+    .ts-drag-title {
+        font-size: 14px !important;
+        padding-top: 5% !important;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .uk-container {
+        overflow-x: auto;
+    }
+
+    .login-btn-div {
+        display: none;
+    }
+
+    .profile-btn {
+        display: none;
+    }
+
+    .uk-navbar {
+        height: 45px;
+    }
+
+    .uk-navbar-item,
+    .uk-navbar-nav > li > a,
+    .uk-navbar-toggle {
+        min-height: 42px;
+    }
+
+    .logo-img {
+        display: none;
+    }
+
+    .e-logo {
+        font-size: 17px;
+        margin-top: -18px;
+    }
+
+    .card-toolbar-home {
+        display: none;
+    }
+
+    .menu-3line {
+        display: block;
+        margin-top: -35px;
+    }
+
+    .w30 {
+        width: 86vw;
+    }
+
+    .home-content {
+        justify-content: space-around;
+        margin-top: 53px !important;
+        width: 100vw;
+        padding: 0px !important;
+    }
+
+    .uk-grid-small {
+        margin-right: 0px !important;
+    }
+
+    .card-calc,
+    .card-price {
+        width: 99vw;
+        padding-right: 0px;
+        overflow-x: scroll;
+    }
+
+    .t1 {
+        font-size: 12px;
+    }
+
+    .uk-table th {
+        font-size: 12px;
+    }
+
+    .uk-table td {
+        padding: 4px 7px;
+        vertical-align: middle;
+    }
+
+    .quick-new-order-btn {
+        visibility: hidden;
+    }
+
+    .card-features {
+        width: 100vw;
+    }
+
+    .tm-date-jalali,
+    .tm-date-gregorian {
+        font-size: 10px;
+    }
+
+    .calculate-title,
+    .price-title {
+        font-size: 14px;
+    }
+
+    .shabnam {
+        font-size: 13px;
+    }
+
+    .row {
+        width: 85vw;
+        flex-direction: column;
+    }
+
+    .amount-div {
+        width: 85vw;
+        margin-bottom: 9px;
+    }
+
+    .coin-select-div {
+        width: 85vw;
+    }
+
+    .buy-btn,
+    .sell-btn {
+        width: 85vw;
+        margin-bottom: 10px;
+    }
+
+    .about_div {
+        display: none;
+    }
+
+    .footer_img {
+        display: none;
+    }
+
+    .footer ul {
+        line-height: 17px;
+    }
+
+    .footer_fallow-us {
+        font-size: 12px;
+    }
+
+    .order-body-div {
+        flex-direction: column;
+    }
+
+    .w10 {
+        width: 75vw;
+    }
+
+    .order-select-input {
+        width: 75vw;
+    }
+
+    .w38 {
+        width: 75vw;
+    }
+
+    .rules {
+        top: 0px;
+        right: 0px;
+        margin-bottom: 37px;
+    }
+
+    .rules label {
+        font-size: 19px;
+    }
+
+    .card-toolbar-dashboard {
+        display: none;
+    }
+
+    .order-list {
+        right: 0px;
+    }
+
+    .uk-width-expand {
+        min-width: fit-content;
+    }
+
+    .order-list .uk-card-header {
+        padding: 15px 0px;
+    }
+
+    #orders_wrapper {
+        overflow-x: scroll;
+    }
+
+    tr td span {
+        font-size: 12px;
+    }
+
+    .expand {
+        min-width: 150px;
+    }
+
+    .btn-identity-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-identity-div button {
+        margin-bottom: 3px;
+        margin-left: 0px !important;
+    }
+
+    .identity-menu {
+        z-index: 0;
+        position: relative;
+    }
+
+    #content,
+    #content2,
+    #content3,
+    #content4,
+    #content5 {
+        margin-top: 0px;
+    }
+
+    .card-setting {
+        margin-right: 0px;
+    }
+
+    .invoice-h1 {
+        flex-direction: column;
+    }
+
+    .card-invoice-2 {
+        width: 65vw;
+    }
+
+    #inv_wallet_addr {
+        font-size: 11px;
+    }
+
+    .fz12 {
+        font-size: 6px !important;
+    }
+
+    .card-id {
+        width: 82vw;
+    }
+
+    .flex-col {
+        flex-direction: column;
+    }
+
+    .ts-drag-title {
+        font-size: 12px;
+    }
+
+    .div-upload-btn a {
+        width: 70vw;
+        margin-bottom: 16px;
+    }
+
+    .div-upload-btn {
+        width: 84vw;
+        margin-bottom: 5px;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .deposit-body-div1 {
+        width: 84vw;
+    }
+
+    .no-padding {
+        padding: 0px;
+    }
+
+    .w15 {
+        width: 57vw;
+    }
+
+    .w7 {
+        width: 82vw;
+    }
+
+    .w19 {
+        width: 70vw;
+    }
+
+    .card-coin {
+        width: 86vw;
+    }
+
+    .card-new-ticket {
+        width: 94vw;
+    }
+
+    .ts-drag-title {
+        font-size: 14px !important;
+        padding-top: 5% !important;
+    }
+
+}
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .uk-container {
+        overflow-x: auto;
+    }
+
+    .login-btn-div {
+        display: none;
+    }
+
+    .profile-btn {
+        display: none;
+    }
+
+    .uk-navbar {
+        height: 45px;
+    }
+
+    .uk-navbar-item,
+    .uk-navbar-nav > li > a,
+    .uk-navbar-toggle {
+        min-height: 42px;
+    }
+
+    .logo-img {
+        display: none;
+    }
+
+    .e-logo {
+        font-size: 17px;
+        margin-top: -18px;
+    }
+
+    .card-toolbar-home {
+        display: none;
+    }
+
+    .menu-3line {
+        display: block;
+        margin-top: -35px;
+
+    }
+
+    .home-content {
+        justify-content: space-around;
+        margin-top: 53px !important;
+        width: 100vw;
+        padding: 0px !important;
+    }
+
+    .uk-grid-small {
+        margin-right: 0px !important;
+    }
+
+    .card-calc,
+    .card-price {
+        width: 99vw;
+        padding-right: 0px;
+        overflow-x: scroll;
+    }
+
+    .t1 {
+        font-size: 12px;
+    }
+
+    .uk-table th {
+        font-size: 12px;
+    }
+
+    .uk-table td {
+        padding: 4px 7px;
+        vertical-align: middle;
+    }
+
+    .quick-new-order-btn {
+        visibility: hidden;
+    }
+
+    .card-features {
+        width: 100vw;
+    }
+
+    .tm-date-jalali,
+    .tm-date-gregorian {
+        font-size: 10px;
+    }
+
+    .calculate-title,
+    .price-title {
+        font-size: 14px;
+    }
+
+    .shabnam {
+        font-size: 13px;
+    }
+
+    .row {
+        width: 85vw;
+        flex-direction: column;
+    }
+
+    .w30 {
+        width: 86vw;
+    }
+
+    .amount-div {
+        width: 85vw;
+        margin-bottom: 9px;
+    }
+
+    .coin-select-div {
+        width: 85vw;
+    }
+
+    .buy-btn,
+    .sell-btn {
+        width: 85vw;
+        margin-bottom: 10px;
+    }
+
+    .about_div {
+        display: none;
+    }
+
+    .footer_img {
+        display: none;
+    }
+
+    .footer ul {
+        line-height: 17px;
+    }
+
+    .footer_fallow-us {
+        font-size: 12px;
+    }
+
+    .order-body-div {
+        flex-direction: column;
+    }
+
+    .w10 {
+        width: 75vw;
+    }
+
+    .order-select-input {
+        width: 75vw;
+    }
+
+    .w38 {
+        width: 75vw;
+    }
+
+    .rules {
+        top: 0px;
+        right: 0px;
+        margin-bottom: 37px;
+    }
+
+    .rules label {
+        font-size: 19px;
+    }
+
+    .card-toolbar-dashboard {
+        display: none;
+    }
+
+    .order-list {
+        right: 0px;
+    }
+
+    .uk-width-expand {
+        min-width: fit-content;
+    }
+
+    .order-list .uk-card-header {
+        padding: 15px 0px;
+    }
+
+    #orders_wrapper {
+        overflow-x: scroll;
+    }
+
+    tr td span {
+        font-size: 12px;
+    }
+
+    .expand {
+        min-width: 150px;
+    }
+
+    .btn-identity-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-identity-div button {
+        margin-bottom: 3px;
+        margin-left: 0px !important;
+    }
+
+    .identity-menu {
+        z-index: 0;
+        position: relative;
+    }
+
+    #content,
+    #content2,
+    #content3,
+    #content4,
+    #content5 {
+        margin-top: 0px;
+    }
+
+    .card-setting {
+        margin-right: 0px;
+    }
+
+    .invoice-h1 {
+        flex-direction: column;
+    }
+
+    .card-invoice-2 {
+        width: 65vw;
+    }
+
+    #inv_wallet_addr {
+        font-size: 11px;
+    }
+
+    .fz12 {
+        font-size: 6px !important;
+    }
+
+    .card-id {
+        width: 82vw;
+    }
+
+    .flex-col {
+        flex-direction: column;
+    }
+
+    .ts-drag-title {
+        font-size: 12px;
+    }
+
+    .div-upload-btn a {
+        width: 70vw;
+        margin-bottom: 16px;
+    }
+
+    .div-upload-btn {
+        width: 84vw;
+        margin-bottom: 5px;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .deposit-body-div1 {
+        width: 84vw;
+    }
+
+    .no-padding {
+        padding: 0px;
+    }
+
+    .w15 {
+        width: 57vw;
+    }
+
+
+    .w7 {
+        width: 82vw;
+    }
+
+    .w19 {
+        width: 70vw;
+    }
+
+    .card-coin {
+        width: 86vw;
+    }
+
+    .card-new-ticket {
+        width: 94vw;
+    }
+
+    .ts-drag-title {
+        font-size: 14px !important;
+        padding-top: 5% !important;
+    }
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .uk-container {
+        overflow-x: auto;
+    }
+
+    .login-btn-div {
+        display: none;
+    }
+
+    .profile-btn {
+        display: none;
+    }
+
+    .uk-navbar {
+        height: 45px;
+    }
+
+    .uk-navbar-item,
+    .uk-navbar-nav > li > a,
+    .uk-navbar-toggle {
+        min-height: 42px;
+    }
+
+    .logo-img {
+        width: 46px;
+        margin-top: 0px;
+    }
+
+    .e-logo {
+        font-size: 17px;
+        margin-top: -18px;
+    }
+
+    .card-toolbar-home {
+        display: none;
+    }
+
+    .menu-3line {
+        display: block;
+        margin-top: 0px;
+
+    }
+
+    .home-content {
+        justify-content: space-around;
+        margin-top: 53px !important;
+        width: 100vw;
+        padding: 0px !important;
+    }
+
+    .uk-grid-small {
+        margin-right: 0px !important;
+    }
+
+    .card-calc,
+    .card-price {
+        width: 99vw;
+        padding-right: 0px;
+        overflow-x: scroll;
+    }
+
+    .card-default {
+        width: 99vw;
+        padding-right: 0px;
+        overflow-x: scroll;
+    }
+
+    .t1 {
+        font-size: 12px;
+    }
+
+    .uk-table th {
+        font-size: 12px;
+    }
+
+    .uk-table td {
+        padding: 4px 7px;
+        vertical-align: middle;
+    }
+
+    .quick-new-order-btn {
+        visibility: hidden;
+    }
+
+    .card-features {
+        width: 100vw;
+    }
+
+    .tm-date-jalali,
+    .tm-date-gregorian {
+        font-size: 10px;
+    }
+
+    .calculate-title,
+    .price-title {
+        font-size: 14px;
+    }
+
+    .shabnam {
+        font-size: 13px;
+    }
+
+    .row {
+        width: 85vw;
+        flex-direction: column;
+    }
+
+    .amount-div {
+        width: 85vw;
+        margin-bottom: 9px;
+    }
+
+    .coin-select-div {
+        width: 85vw;
+    }
+
+    .buy-btn,
+    .sell-btn {
+        width: 85vw;
+        margin-bottom: 10px;
+    }
+
+    .about_div {
+        display: none;
+    }
+
+    .footer_img {
+        display: none;
+    }
+
+    .footer ul {
+        line-height: 17px;
+    }
+
+    .footer_fallow-us {
+        font-size: 12px;
+    }
+
+    .order-body-div {
+        flex-direction: column;
+    }
+
+    .w10 {
+        width: 75vw;
+    }
+
+    .order-select-input {
+        width: 75vw;
+    }
+
+    .w38 {
+        width: 75vw;
+    }
+
+    .w30 {
+        width: 86vw;
+    }
+
+    .rules {
+        top: 0px;
+        right: 0px;
+        margin-bottom: 37px;
+    }
+
+    .rules label {
+        font-size: 19px;
+    }
+
+    .card-toolbar-dashboard {
+        display: none;
+    }
+
+    .order-list {
+        right: 0px;
+    }
+
+    .uk-width-expand {
+        min-width: fit-content;
+    }
+
+    .order-list .uk-card-header {
+        padding: 15px 0px;
+    }
+
+    #orders_wrapper {
+        overflow-x: scroll;
+    }
+
+    tr td span {
+        font-size: 12px;
+    }
+
+    .expand {
+        min-width: 150px;
+    }
+
+    .btn-identity-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-identity-div button {
+        margin-bottom: 3px;
+        margin-left: 0px !important;
+    }
+
+    .identity-menu {
+        z-index: 0;
+        position: relative;
+    }
+
+    #content,
+    #content2,
+    #content3,
+    #content4,
+    #content5 {
+        margin-top: 0px;
+    }
+
+    .card-setting {
+        margin-right: 0px;
+    }
+
+    .invoice-h1 {
+        flex-direction: column;
+    }
+
+    .card-invoice-2 {
+        width: 65vw;
+    }
+
+    #inv_wallet_addr {
+        font-size: 11px;
+    }
+
+    .fz12 {
+        font-size: 6px !important;
+    }
+
+    .card-id {
+        width: 82vw;
+    }
+
+    .flex-col {
+        flex-direction: column;
+    }
+
+    .ts-drag-title {
+        font-size: 12px;
+    }
+
+    .div-upload-btn a {
+        width: 70vw;
+        ;
+        margin-bottom: 16px;
+    }
+
+    .div-upload-btn {
+        width: 84vw;
+        margin-bottom: 5px;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .deposit-body-div1 {
+        width: 84vw;
+    }
+
+    .no-padding {
+        padding: 0px;
+    }
+
+    .w15 {
+        width: 57vw;
+    }
+
+    .w7 {
+        width: 82vw;
+    }
+
+    .w19 {
+        width: 70vw;
+    }
+
+    .card-coin {
+        width: 86vw;
+    }
+
+    .card-new-ticket {
+        width: 94vw;
+    }
+
+    .ts-drag-title {
+        font-size: 14px !important;
+        padding-top: 5% !important;
+    }
+
+}
